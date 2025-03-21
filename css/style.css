@@ -42,16 +42,14 @@
 
 
  
-  .top{
-    background-color: var(--brand-blue);
-    padding: 10px ;
-  }
   nav{
     background-color: var(--brand-blue);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     padding: 10px;
     border-top: 5px solid var(--brand-gold-dark);
+    z-index: 99;
   }
   
 nav ul {
@@ -83,13 +81,65 @@ nav ul li a{
     display: flex;
      align-items: center;
      gap: 5px;
+    margin-top: 3em;
+
+}
+.log img{
+    width: 70px;
 }
 .log-text{
     color: var(--gray-extra-light);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   
 }
 .log-text h4{
     font-family: var(--font-default);
     /* word-spacing: 10px; */
-    letter-spacing: ;
+    letter-spacing: 5px;
 }
+.log-text h2{
+    font-family: var(--font-heading-article);
+    letter-spacing: 2px;
+}
+
+
+.top{
+    background-color: var(--brand-blue);
+    padding: 10px ;
+    /* width: 400px; */
+  }
+
+  #small-nav{
+    display: flex;
+    transform: translateY(-30%);
+    justify-content: end;
+    position: absolute;
+    right: 100px;
+  }
+  #small-nav ul{
+    display: flex;
+    gap:1em;
+    padding: 1.5em  1em;
+    background-color: white;
+    
+  }
+  #small-nav ul li a{
+    color: var(--brand-gold-dark);
+    font-size: 20px;
+  }
+
+  .boxes{
+    background-image: url("../images/feature-bg-1600.jpeg");
+    padding: 4em 10px;
+    display: flex;
+  }
+
+  .content-section{
+    /* display: flex; */
+  }
+
+  .img-section img{
+    width: 100%;
+  }
