@@ -468,11 +468,11 @@ height: 95%;
     padding: 2em 10px;
 }
 
-.footer-local ul {
+.footer-local ul ,.footer ul {
     display: flex;
 }
 
-.footer-local ul li{
+.footer-local ul li,.footer ul li{
     padding: 10px 15px;
     border-radius: 10px;
 }
@@ -481,4 +481,17 @@ height: 95%;
 }
 .footer-local ul li:hover{
     background-color: var(--brand-blue-light);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 200, 200);
+    padding: 1.5em 10px;
+}
+
+.footer ul li a{
+    color: #333;
+    font-family: var(--font-heading-article);
 }
