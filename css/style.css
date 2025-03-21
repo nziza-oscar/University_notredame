@@ -403,6 +403,7 @@ height: 95%;
     display: flex;
     gap:1em;
 }
+
 .card img{
     width: 100%;
 }
