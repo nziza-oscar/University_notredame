@@ -377,3 +377,32 @@ height: 95%;
     width: 400px;
     margin-left: auto;
   }
+
+
+  #section-5{
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 3em;
+    gap:3em;
+  }
+  .category{color: var(--gray);padding: 10px 0;}
+  .card-body{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-title{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .card-link {
+    color: var(--link-blue);
+    font-family: var(--font-heading-article);
+  }
+.flex{
+    display: flex;
+    gap:1em;
+}
+.card img{
+    width: 100%;
+}
