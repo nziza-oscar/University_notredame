@@ -484,6 +484,51 @@ height: 95%;
 }
 
 
+
+
+.footer-light{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+    justify-content: space-between;
+    padding: 1em 10px;
+}
+
+.brand img{
+    width: 60px;
+}
+.brand{
+    display: flex;
+    gap:10px;
+    padding: 5px 10px;
+    align-items: center;
+    color: var(--brand-blue);
+    font-family: var(--font-heading-article);
+
+}
+.brand h4{
+    letter-spacing: 4px;
+}
+.social-media ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+
+}
+
+.social-media ul li a{
+    color: var(--gray-dark);
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.copyright a{
+    color: var(--gray);
+    text-decoration: underline;
+}
 .footer{
     display: flex;
     justify-content: space-between;
