@@ -459,3 +459,26 @@ height: 95%;
     transition: all .5s;
     background-color: var(--sky-blue);
 }
+
+
+.footer-local{
+    background-color: var(--brand-blue);
+    display: flex;
+    justify-content: center;
+    padding: 2em 10px;
+}
+
+.footer-local ul {
+    display: flex;
+}
+
+.footer-local ul li{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.footer-local ul li a{
+    color: var(--sky-blue-light);
+}
+.footer-local ul li:hover{
+    background-color: var(--brand-blue-light);
+}
