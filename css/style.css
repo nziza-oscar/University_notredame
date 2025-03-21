@@ -132,14 +132,68 @@ nav ul li a{
 
   .boxes{
     background-image: url("../images/feature-bg-1600.jpeg");
-    padding: 4em 10px;
-    display: flex;
+    padding: 4em 0;
+    display: grid;
+    grid-template-columns:1fr 2fr;
   }
 
   .content-section{
     /* display: flex; */
+    padding: 1.5em;
+  }
+  #intro{
+    padding: 0 10px;
+  }
+  #intro h1{
+    font-size: 3em;
+    color: var(--brand-blue);
+    text-justify: distribute;
+    display: flex;
+  }
+  #intro::after{
+    content: "";
+    /* padding: 8px; */
+    height: 5px;
+    background-color: #8c7535;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .content-section button{
+    margin-top: 1em;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+  
+    padding: 10px 5px;
+    font-size: 20px;
+    color: var(--brand-blue);
+  }
+  .content-section button img{
+    width: 30px;
+  }
+  .img-section{
+    /* flex: 1; */
+    display: flex ;
+    justify-content: end;
+    position: relative;
   }
 
   .img-section img{
-    width: 100%;
+    width: 90%;
+    margin-right:0;
+    object-fit: cover;
+  }
+  #border{
+    width: 89%;
+height: 95%;
+    border: 1px solid white;
+    border-right: 0;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    /* left: 50%;
+    right: 50%; */
+    /* transform: translate(50% 50%); */
   }
